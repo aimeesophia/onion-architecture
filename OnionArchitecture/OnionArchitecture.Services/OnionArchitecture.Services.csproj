@@ -5,4 +5,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OnionArchitecture.Domain\OnionArchitecture.Domain.csproj" />
+    <ProjectReference Include="..\OnionArchitecture.Repository\OnionArchitecture.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
